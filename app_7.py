@@ -69,7 +69,7 @@ prompt = load_prompt()
 def load_chat_model():
     return ChatOpenAI(
         temperature=0.3,
-        model='gpt-3.5-turbo',
+        model='gpt-4o',
         streaming=True,
         verbose=True
     )
